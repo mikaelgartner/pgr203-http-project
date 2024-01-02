@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReturnStatusCode 404 (running green)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReturnStatusCode 404 (cleanup + comments)">
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
@@ -187,7 +186,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1704216248590</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="Test shouldReturnStatusCode 404 (cleanup + comments)">
+      <option name="closed" value="true" />
+      <created>1704217367226</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1704217367226</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +210,7 @@
     <MESSAGE value="Test shouldReturnStatusCode (running green, but fake)" />
     <MESSAGE value="Test shouldReturnStatusCode 404 (running red)" />
     <MESSAGE value="Test shouldReturnStatusCode 404 (running green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReturnStatusCode 404 (running green)" />
+    <MESSAGE value="Test shouldReturnStatusCode 404 (cleanup + comments)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReturnStatusCode 404 (cleanup + comments)" />
   </component>
 </project>
