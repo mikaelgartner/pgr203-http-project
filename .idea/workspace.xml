@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Lecture plan + changes to .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Define Github Actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -90,11 +89,27 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1704192831145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="first test runs red">
+      <option name="closed" value="true" />
+      <created>1704195561610</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1704195561610</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Define Github Actions">
+      <option name="closed" value="true" />
+      <created>1704197407178</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1704197407178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lecture plan + changes to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture plan + changes to .gitignore" />
+    <MESSAGE value="first test runs red" />
+    <MESSAGE value="Define Github Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Define Github Actions" />
   </component>
 </project>
