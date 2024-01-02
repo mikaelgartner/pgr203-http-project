@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Trying to fix Github Actions workflow #2" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Trying to fix Github Actions workflow #3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +129,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1704205391657</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Trying to fix Github Actions workflow #3">
+      <option name="closed" value="true" />
+      <created>1704205918976</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1704205918976</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +147,7 @@
     <MESSAGE value="Fix Maven surefire plugin" />
     <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix Github Actions workflow #2" />
+    <MESSAGE value="Trying to fix Github Actions workflow #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix Github Actions workflow #3" />
   </component>
 </project>
