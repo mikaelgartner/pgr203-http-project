@@ -5,8 +5,8 @@ Hvordan ser en HTTP request ut?
 
 ## Repeat av lecture 2
 
-* [ ] Maven
-* [ ] Github Actions
+* [x] Maven
+* [x] Github Actions
 * [ ] Working branch
 * [ ] Pull request
 
