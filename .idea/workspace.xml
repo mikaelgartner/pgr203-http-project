@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Define Github Actions (FIX to compiler source)">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Fix Maven surefire plugin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.HttpClientTest.executor": "Run",
+    "Maven.pgr203-http-project [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -109,7 +108,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1704197786985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Fix Maven surefire plugin">
+      <option name="closed" value="true" />
+      <created>1704198708937</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1704198708937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +123,7 @@
     <MESSAGE value="first test runs red" />
     <MESSAGE value="Define Github Actions" />
     <MESSAGE value="Define Github Actions (FIX to compiler source)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Define Github Actions (FIX to compiler source)" />
+    <MESSAGE value="Fix Maven surefire plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Maven surefire plugin" />
   </component>
 </project>
