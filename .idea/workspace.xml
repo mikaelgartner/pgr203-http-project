@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Define Github Actions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Define Github Actions (FIX to compiler source)">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,13 +102,21 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1704197407178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Define Github Actions (FIX to compiler source)">
+      <option name="closed" value="true" />
+      <created>1704197786985</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1704197786985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lecture plan + changes to .gitignore" />
     <MESSAGE value="first test runs red" />
     <MESSAGE value="Define Github Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Define Github Actions" />
+    <MESSAGE value="Define Github Actions (FIX to compiler source)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Define Github Actions (FIX to compiler source)" />
   </component>
 </project>
