@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReturnStatusCode (running red)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReturnStatusCode 404 (running red)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +166,21 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1704213637380</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Test shouldReturnStatusCode (running green, but fake)">
+      <option name="closed" value="true" />
+      <created>1704214220653</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1704214220653</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Test shouldReturnStatusCode 404 (running red)">
+      <option name="closed" value="true" />
+      <created>1704214461056</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1704214461056</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +194,8 @@
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
     <MESSAGE value="First test (running green)" />
     <MESSAGE value="Test shouldReturnStatusCode (running red)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReturnStatusCode (running red)" />
+    <MESSAGE value="Test shouldReturnStatusCode (running green, but fake)" />
+    <MESSAGE value="Test shouldReturnStatusCode 404 (running red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReturnStatusCode 404 (running red)" />
   </component>
 </project>
