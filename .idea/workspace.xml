@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Trying to fix Github Actions workflow #3">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="First test (running green)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/httpproject/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -146,7 +153,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1704205979629</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="First test (running green)">
+      <option name="closed" value="true" />
+      <created>1704208812915</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1704208812915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +172,7 @@
     <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix Github Actions workflow #3" />
+    <MESSAGE value="First test (running green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="First test (running green)" />
   </component>
 </project>
