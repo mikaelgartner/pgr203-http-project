@@ -3,10 +3,10 @@ name: Build with Maven
 on:
   push:
     branches:
-      - pgr203-http-project/*
+      - master/*
   pull_request:
     branches:
-      - pgr203-http-project/*
+      - master/*
 
 jobs:
   build:
