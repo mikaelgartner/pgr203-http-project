@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReturnHeaders (running green + README.md updated)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReadContentLength (running green)">
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
@@ -208,7 +207,21 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1704219356492</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Test shouldReadContentLength (running red)">
+      <option name="closed" value="true" />
+      <created>1704268352650</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1704268352650</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Test shouldReadContentLength (running green)">
+      <option name="closed" value="true" />
+      <created>1704268477694</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1704268477694</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,6 +241,8 @@
     <MESSAGE value="Test shouldReturnStatusCode 404 (cleanup + comments)" />
     <MESSAGE value="Test shouldReturnHeaders (running red)" />
     <MESSAGE value="Test shouldReturnHeaders (running green + README.md updated)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReturnHeaders (running green + README.md updated)" />
+    <MESSAGE value="Test shouldReadContentLength (running red)" />
+    <MESSAGE value="Test shouldReadContentLength (running green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReadContentLength (running green)" />
   </component>
 </project>
