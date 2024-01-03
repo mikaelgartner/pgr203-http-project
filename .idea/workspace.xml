@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReadContentLength (running green)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReadBody (running red)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
@@ -221,7 +223,14 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1704268477694</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Test shouldReadBody (running red)">
+      <option name="closed" value="true" />
+      <created>1704269398130</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1704269398130</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +252,7 @@
     <MESSAGE value="Test shouldReturnHeaders (running green + README.md updated)" />
     <MESSAGE value="Test shouldReadContentLength (running red)" />
     <MESSAGE value="Test shouldReadContentLength (running green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReadContentLength (running green)" />
+    <MESSAGE value="Test shouldReadBody (running red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReadBody (running red)" />
   </component>
 </project>
