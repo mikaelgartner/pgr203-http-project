@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Trying to fix Github Actions workflow #3">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Test shouldReadBody (running red)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -146,7 +153,84 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1704205979629</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="First test (running green)">
+      <option name="closed" value="true" />
+      <created>1704208812915</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1704208812915</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Test shouldReturnStatusCode (running red)">
+      <option name="closed" value="true" />
+      <created>1704213637380</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1704213637380</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Test shouldReturnStatusCode (running green, but fake)">
+      <option name="closed" value="true" />
+      <created>1704214220653</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1704214220653</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Test shouldReturnStatusCode 404 (running red)">
+      <option name="closed" value="true" />
+      <created>1704214461056</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1704214461056</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Test shouldReturnStatusCode 404 (running green)">
+      <option name="closed" value="true" />
+      <created>1704216248590</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1704216248590</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Test shouldReturnStatusCode 404 (cleanup + comments)">
+      <option name="closed" value="true" />
+      <created>1704217367226</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1704217367226</updated>
+    </task>
+    <task id="LOCAL−00016" summary="Test shouldReturnHeaders (running red)">
+      <option name="closed" value="true" />
+      <created>1704217878515</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1704217878515</updated>
+    </task>
+    <task id="LOCAL−00017" summary="Test shouldReturnHeaders (running green + README.md updated)">
+      <option name="closed" value="true" />
+      <created>1704219356492</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1704219356492</updated>
+    </task>
+    <task id="LOCAL−00018" summary="Test shouldReadContentLength (running red)">
+      <option name="closed" value="true" />
+      <created>1704268352650</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1704268352650</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Test shouldReadContentLength (running green)">
+      <option name="closed" value="true" />
+      <created>1704268477694</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1704268477694</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Test shouldReadBody (running red)">
+      <option name="closed" value="true" />
+      <created>1704269398130</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1704269398130</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +242,17 @@
     <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix Github Actions workflow #3" />
+    <MESSAGE value="First test (running green)" />
+    <MESSAGE value="Test shouldReturnStatusCode (running red)" />
+    <MESSAGE value="Test shouldReturnStatusCode (running green, but fake)" />
+    <MESSAGE value="Test shouldReturnStatusCode 404 (running red)" />
+    <MESSAGE value="Test shouldReturnStatusCode 404 (running green)" />
+    <MESSAGE value="Test shouldReturnStatusCode 404 (cleanup + comments)" />
+    <MESSAGE value="Test shouldReturnHeaders (running red)" />
+    <MESSAGE value="Test shouldReturnHeaders (running green + README.md updated)" />
+    <MESSAGE value="Test shouldReadContentLength (running red)" />
+    <MESSAGE value="Test shouldReadContentLength (running green)" />
+    <MESSAGE value="Test shouldReadBody (running red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReadBody (running red)" />
   </component>
 </project>
