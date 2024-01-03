@@ -20,4 +20,10 @@ public class HttpClientTest {
         assertEquals("text/html; charset=utf-8", client.getHeader("Content-Type"));
     }
 
+    @Test
+    void shouldReadContentLength() throws IOException {
+        HttpClient client = new HttpClient("httpbin.org", 80, "/html");
+        assertEquals(3741, client.getContentLength());
+    }
+
 }
