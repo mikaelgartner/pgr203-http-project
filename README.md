@@ -23,7 +23,7 @@ Hvordan ser en HTTP request ut?
 
 ## HttpServer
 
-* [ ] HttpServer should respond with 404
+* [x] HttpServer should respond with 404
 * [ ] HttpServer should include request target in 404
 * [ ] Return static content for /hello
 * [ ] Content-type
