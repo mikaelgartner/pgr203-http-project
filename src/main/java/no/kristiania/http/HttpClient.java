@@ -45,7 +45,7 @@ public class HttpClient {
     }
 
     //For å lese en linje bruker vi en "buffer", en midlertidig struktur hvor jeg bygger opp linja underveis
-    private String readLine(Socket socket) throws IOException {
+    static String readLine(Socket socket) throws IOException {
         StringBuilder buffer = new StringBuilder();
         int c;
         while ((c = socket.getInputStream().read()) != '\r') {  //Leser ett og ett tegn fra socketen inntil vi kommer til \r

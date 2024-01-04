@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Trying to fix Github Actions workflow #3">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Added test report">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +35,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.HttpClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pgr203-http-project [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HttpServer.executor": "Run",
+    "JUnit.HttpClientTest.executor": "Run",
+    "Maven.pgr203-http-project [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.HttpServer">
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
+      <module name="pgr203-http-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pgr203-http-project" />
       <extension name="coverage">
@@ -64,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.HttpClientTest" />
       </list>
     </recent_temporary>
@@ -147,7 +162,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1704205979629</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Added test report">
+      <option name="closed" value="true" />
+      <created>1704361386335</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1704361386335</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +192,7 @@
     <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix Github Actions workflow #3" />
+    <MESSAGE value="Added test report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test report" />
   </component>
 </project>
