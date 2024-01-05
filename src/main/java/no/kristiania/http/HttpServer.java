@@ -50,4 +50,8 @@ public class HttpServer {
 
         clientSocket.getOutputStream().write(response.getBytes());
     }
+
+    public int getPort() {
+        return serverSocket.getLocalPort();
+    }
 }
