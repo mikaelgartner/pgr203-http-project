@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Server shouldServeFiles (running green)">
-      <change afterPath="$PROJECT_DIR$/index.txt" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Server shouldContentTypeFromFileExtension (running green)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
@@ -287,7 +287,14 @@
       <option name="presentableId" value="LOCAL−00022" />
       <updated>1704455973778</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL−00023" summary="Server shouldContentTypeFromFileExtension (running green)">
+      <option name="closed" value="true" />
+      <created>1704457540874</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1704457540874</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +330,7 @@
     <MESSAGE value="Server should return content type" />
     <MESSAGE value="Server shouldServeFiles (running red)" />
     <MESSAGE value="Server shouldServeFiles (running green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server shouldServeFiles (running green)" />
+    <MESSAGE value="Server shouldContentTypeFromFileExtension (running green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server shouldContentTypeFromFileExtension (running green)" />
   </component>
 </project>
