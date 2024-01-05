@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <recent name="no.kristiania.http" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HttpServerTest">
+  <component name="RunManager" selected="Application.HttpServer">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -109,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="Application.HttpServer" />
+        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JUnit.HttpClientTest" />
       </list>
     </recent_temporary>
@@ -243,7 +243,14 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1704450453797</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)">
+      <option name="closed" value="true" />
+      <created>1704451914346</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1704451914346</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +280,7 @@
     <MESSAGE value="shouldRespondWithRequestTargetIn404 (running green)" />
     <MESSAGE value="HttpServer shouldRespondWithRequestTargetIn404 (refactoring)" />
     <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)" />
-    <option name="LAST_COMMIT_MESSAGE" value="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)" />
+    <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)" />
   </component>
 </project>
