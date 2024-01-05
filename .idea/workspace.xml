@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Refactor to assertAll">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Server should return content type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
@@ -266,7 +265,14 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1704452934331</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Server should return content type">
+      <option name="closed" value="true" />
+      <created>1704453740069</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1704453740069</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +305,7 @@
     <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)" />
     <MESSAGE value="HttpServer main method uses HttpServer" />
     <MESSAGE value="Refactor to assertAll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor to assertAll" />
+    <MESSAGE value="Server should return content type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server should return content type" />
   </component>
 </project>
