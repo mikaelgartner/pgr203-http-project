@@ -24,7 +24,7 @@ Hvordan ser en HTTP request ut?
 ## HttpServer
 
 * [x] HttpServer should respond with 404
-* [ ] HttpServer should include request target in 404
+* [x] HttpServer should include request target in 404
 * [ ] Return static content for /hello
 * [ ] Content-type
 * [ ] Return HTML file from disk
