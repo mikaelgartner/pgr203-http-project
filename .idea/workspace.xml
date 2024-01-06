@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="http server should return roles from server (running green)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="http server should return roles from server (bad refactor)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
@@ -139,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
       <workItem from="1704536795437" duration="4684000" />
-      <workItem from="1704542803430" duration="6788000" />
+      <workItem from="1704542803430" duration="8251000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -358,7 +358,14 @@
       <option name="presentableId" value="LOCAL−00031" />
       <updated>1704550581214</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL−00032" summary="http server should return roles from server (bad refactor)">
+      <option name="closed" value="true" />
+      <created>1704551841594</created>
+      <option name="number" value="LOCAL−00032" />
+      <option name="presentableId" value="LOCAL−00032" />
+      <updated>1704551841594</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
     <MESSAGE value="Added test report" />
@@ -401,6 +407,7 @@
     <MESSAGE value="More styling + fixes to html pages" />
     <MESSAGE value="http server should return roles from server (running red)" />
     <MESSAGE value="http server should return roles from server (running green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="http server should return roles from server (running green)" />
+    <MESSAGE value="http server should return roles from server (bad refactor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="http server should return roles from server (bad refactor)" />
   </component>
 </project>
