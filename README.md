@@ -33,8 +33,8 @@ Hvordan ser en HTTP request ut?
 
 ## Lecture 6
 
-* [ ] Styling the page
-* [ ] Handle more than one request
+* [x] Styling the page
+* [x] Handle more than one request
 * [ ] Feilhåndtering
 * [ ] Refactor -> HttpMessage class
 * [ ] Process POST request from form
