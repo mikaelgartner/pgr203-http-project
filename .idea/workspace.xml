@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Change of requirements: &quot;Hello&quot; needs both first and last names (running green)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,8 +67,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="no.kristiania.http" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="no.kristiania.http.HttpMessage" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="no.kristiania.http" />
@@ -118,8 +127,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HttpServerTest" />
-        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.HttpClientTest" />
+        <item itemvalue="Application.HttpServer" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
       <workItem from="1704536795437" duration="4684000" />
-      <workItem from="1704542803430" duration="10714000" />
+      <workItem from="1704542803430" duration="16135000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -400,7 +409,14 @@
       <option name="presentableId" value="LOCAL−00037" />
       <updated>1704555324388</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL−00038" summary="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)">
+      <option name="closed" value="true" />
+      <created>1704555610663</created>
+      <option name="number" value="LOCAL−00038" />
+      <option name="presentableId" value="LOCAL−00038" />
+      <updated>1704555610663</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shouldRespondWithRequestTargetIn404 (running red)" />
     <MESSAGE value="shouldRespondWithRequestTargetIn404 (running green)" />
     <MESSAGE value="HttpServer shouldRespondWithRequestTargetIn404 (refactoring)" />
     <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)" />
@@ -443,6 +458,7 @@
     <MESSAGE value="Http server main sets roles" />
     <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (running red)" />
     <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (running green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change of requirements: &quot;Hello&quot; needs both first and last names (running green)" />
+    <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)" />
   </component>
 </project>
