@@ -36,6 +36,7 @@ Hvordan ser en HTTP request ut?
 * [x] Styling the page
 * [x] Handle more than one request
 * [ ] Feilhåndtering
+* [ ] GET requests with more than one field
 * [ ] Refactor -> HttpMessage class
 * [ ] Process POST request from form
 * [ ] URL encoding
