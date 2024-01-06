@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Server shouldContentTypeFromFileExtension (running green)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Server shouldEchoQueryParameter (running green)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <recent name="no.kristiania.http" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HttpServerTest">
+  <component name="RunManager" selected="Application.HttpServer">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -111,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="Application.HttpServer" />
+        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JUnit.HttpClientTest" />
       </list>
     </recent_temporary>
@@ -294,7 +293,14 @@
       <option name="presentableId" value="LOCAL−00023" />
       <updated>1704457540874</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL−00024" summary="Server shouldEchoQueryParameter (running green)">
+      <option name="closed" value="true" />
+      <created>1704459607053</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1704459607053</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +337,7 @@
     <MESSAGE value="Server shouldServeFiles (running red)" />
     <MESSAGE value="Server shouldServeFiles (running green)" />
     <MESSAGE value="Server shouldContentTypeFromFileExtension (running green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server shouldContentTypeFromFileExtension (running green)" />
+    <MESSAGE value="Server shouldEchoQueryParameter (running green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server shouldEchoQueryParameter (running green)" />
   </component>
 </project>
