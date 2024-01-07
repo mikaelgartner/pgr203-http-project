@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Large refactoring: Extracted HttpMessage from HttpClient">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpPostClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/Person.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server shouldCreateNewPerson (running red)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpPostClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpPostClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="no.kristiania.http" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HttpServerTest">
+  <component name="RunManager" selected="JUnit.HttpClientTest">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -127,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JUnit.HttpClientTest" />
+        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="Application.HttpServer" />
       </list>
     </recent_temporary>
@@ -149,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
       <workItem from="1704536795437" duration="4684000" />
-      <workItem from="1704542803430" duration="18240000" />
+      <workItem from="1704542803430" duration="19194000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -424,7 +424,14 @@
       <option name="presentableId" value="LOCAL−00039" />
       <updated>1704561416270</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL−00040" summary="Http server shouldCreateNewPerson (running red)">
+      <option name="closed" value="true" />
+      <created>1704563495869</created>
+      <option name="number" value="LOCAL−00040" />
+      <option name="presentableId" value="LOCAL−00040" />
+      <updated>1704563495869</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HttpServer shouldRespondWithRequestTargetIn404 (refactoring)" />
     <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)" />
     <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)" />
     <MESSAGE value="HttpServer main method uses HttpServer" />
@@ -467,6 +473,7 @@
     <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (running green)" />
     <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)" />
     <MESSAGE value="Large refactoring: Extracted HttpMessage from HttpClient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Large refactoring: Extracted HttpMessage from HttpClient" />
+    <MESSAGE value="Http server shouldCreateNewPerson (running red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http server shouldCreateNewPerson (running red)" />
   </component>
 </project>
