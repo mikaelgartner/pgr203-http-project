@@ -1,12 +1,9 @@
-Forelesning 4: HTTP Server
-
-Hvordan ser en HTTP request ut?
-
+Lecture 4: HTTP Server
 
 ## Repeat av lecture 2
 
 * [x] Maven
-* [x] Github Actions
+* [x] GitHub Actionsclear
 * [x] Working branch
 * [x] Pull request
 * [x] Test report
@@ -35,12 +32,24 @@ Hvordan ser en HTTP request ut?
 
 * [x] Styling the page
 * [x] Handle more than one request
-* [ ] Feilhåndtering
-* [ ] GET requests with more than one field
-* [ ] Refactor -> HttpMessage class
-* [ ] Process POST request from form
-* [ ] URL encoding
+* [x] GET requests with more than one field
+* [x] Refactor -> HttpMessage class
+* [x] Process POST request from form
+
+
+## Lecture 9
+
 * [ ] Make executable JAR
+* [ ] Serve HTML from jar-file
+* [ ] PersonDaoTest should handle adding persons to database and listing them
+* [ ] RoleDaoTest should handle adding roles to database and listing them
+* [ ] /api-requestTarget -> Controllers
+* [ ] Password stored in properties-file
 
 
+## Problems left for exam
 
+* [ ] Error handling
+* [ ] URL encoding
+* [ ] Update existing data in the database
+* [ ] GET /api/people should return all people, POST /api/people should create new person
