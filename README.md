@@ -53,3 +53,4 @@ Lecture 4: HTTP Server
 * [ ] URL encoding
 * [ ] Update existing data in the database
 * [ ] GET /api/people should return all people, POST /api/people should create new person
+* [ ] Generalize AbstractDao.insert
