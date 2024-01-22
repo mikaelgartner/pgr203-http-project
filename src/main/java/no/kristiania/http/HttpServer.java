@@ -1,6 +1,8 @@
 package no.kristiania.http;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.file.Files;
@@ -77,8 +79,11 @@ public class HttpServer {
 
             writeOkResponse(clientSocket, responseText, " text/html");
         } else {
-            if (rootDirectory != null && Files.exists(rootDirectory.resolve(fileTarget.substring(1)))) {
-                String responseText = Files.readString(rootDirectory.resolve(fileTarget.substring(1)));
+            InputStream fileResource = getClass().getResourceAsStream(fileTarget);
+            if (fileResource != null) {
+                ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+                fileResource.transferTo(buffer);
+                String responseText = buffer.toString();
 
                 String contentType = "text/plain";
                 if (requestTarget.endsWith(".html")) {
