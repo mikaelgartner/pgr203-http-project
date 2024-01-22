@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Person dao should retrieve saved person (red but now compiles)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V002__create_table_people.sql" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Person dao should retrieve saved person (green)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/person/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/person/PersonDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" afterDir="false" />
     </list>
@@ -164,7 +164,7 @@
       <updated>1704191440883</updated>
       <workItem from="1705925205713" duration="1460000" />
       <workItem from="1705927016065" duration="463000" />
-      <workItem from="1705927489742" duration="13020000" />
+      <workItem from="1705927489742" duration="13403000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -334,7 +334,14 @@
       <option name="presentableId" value="LOCAL−00024" />
       <updated>1705942817918</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL−00025" summary="Person dao should retrieve saved person (green)">
+      <option name="closed" value="true" />
+      <created>1705943834653</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1705943834653</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +381,7 @@
     <MESSAGE value="RoleDaoTest should list saved roles (green)" />
     <MESSAGE value="Person dao should retrieve saved person (red does not compile)" />
     <MESSAGE value="Person dao should retrieve saved person (red but now compiles)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person dao should retrieve saved person (red but now compiles)" />
+    <MESSAGE value="Person dao should retrieve saved person (green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Person dao should retrieve saved person (green)" />
   </component>
 </project>
