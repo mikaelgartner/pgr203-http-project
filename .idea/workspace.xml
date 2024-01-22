@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="RoleDaoTest should list saved roles (red)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/TestData.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="RoleDaoTest should list saved roles (compiles, but fails)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/RoleDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/RoleDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/RoleDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,7 @@
       <updated>1704191440883</updated>
       <workItem from="1705925205713" duration="1460000" />
       <workItem from="1705927016065" duration="463000" />
-      <workItem from="1705927489742" duration="7799000" />
+      <workItem from="1705927489742" duration="8265000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -277,7 +274,14 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1705937108531</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="RoleDaoTest should list saved roles (compiles, but fails)">
+      <option name="closed" value="true" />
+      <created>1705938645923</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1705938645924</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +314,7 @@
     <MESSAGE value="Serve HTML from jar-file" />
     <MESSAGE value="Serve HTML from jar-file (refactor)" />
     <MESSAGE value="RoleDaoTest should list saved roles (red)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RoleDaoTest should list saved roles (red)" />
+    <MESSAGE value="RoleDaoTest should list saved roles (compiles, but fails)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RoleDaoTest should list saved roles (compiles, but fails)" />
   </component>
 </project>
