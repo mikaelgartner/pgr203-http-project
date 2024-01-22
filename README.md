@@ -42,7 +42,7 @@ Lecture 4: HTTP Server
 * [x] Make executable JAR
 * [x] Serve HTML from jar-file
 * [x] RoleDaoTest should handle adding roles to database and listing them
-* [ ] PersonDaoTest should handle adding persons to database and listing them
+* [x] PersonDaoTest should handle adding persons to database and listing them
 * [ ] /api-requestTarget -> Controllers
 * [ ] Password stored in properties-file
 
