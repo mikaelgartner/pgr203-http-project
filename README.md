@@ -23,8 +23,24 @@ Hvordan ser en HTTP request ut?
 
 ## HttpServer
 
-* [ ] HttpServer should respond with 404
-* [ ] HttpServer should include request target in 404
-* [ ] Return static content for /hello
-* [ ] Return HTML file from disk
-* [ ] Content-type
+* [x] HttpServer should respond with 404
+* [x] HttpServer should include request target in 404
+* [x] Return static content for /hello
+* [x] Content-type
+* [x] Return HTML file from disk
+* [x] Return <form>
+* [x] Process GET request for form
+
+## Lecture 6
+
+* [x] Styling the page
+* [x] Handle more than one request
+* [ ] Feilhåndtering
+* [ ] GET requests with more than one field
+* [ ] Refactor -> HttpMessage class
+* [ ] Process POST request from form
+* [ ] URL encoding
+* [ ] Make executable JAR
+
+
+

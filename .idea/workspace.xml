@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Added test report">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server shouldCreateNewPerson (running red)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpPostClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpPostClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,19 +44,44 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HttpServer.executor": "Run",
-    "JUnit.HttpClientTest.executor": "Run",
-    "Maven.pgr203-http-project [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HttpServer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pgr203-http-project [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;working/02&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mikae/IdeaProjects/pgr203-http-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.HttpServer">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="no.kristiania.http" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="no.kristiania.http.HttpMessage" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="no.kristiania.http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HttpClientTest">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -76,10 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pgr203-http-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.http" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.HttpClientTest" />
+        <item itemvalue="JUnit.HttpServerTest" />
+        <item itemvalue="Application.HttpServer" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +148,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
+      <workItem from="1704536795437" duration="4684000" />
+      <workItem from="1704542803430" duration="19194000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -169,8 +221,221 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1704361386335</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="HttpServer with main method + shouldReturn404ForUnknownRequestTarget (running green)">
+      <option name="closed" value="true" />
+      <created>1704374679570</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1704374679570</updated>
+    </task>
+    <task id="LOCAL−00012" summary="HttpServer with main method + shouldReturn404ForUnknownRequestTarget (running green) + edit to README.md">
+      <option name="closed" value="true" />
+      <created>1704374768792</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1704374768792</updated>
+    </task>
+    <task id="LOCAL−00013" summary="shouldRespondWithRequestTargetIn404 (running red)">
+      <option name="closed" value="true" />
+      <created>1704449258548</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1704449258548</updated>
+    </task>
+    <task id="LOCAL−00014" summary="shouldRespondWithRequestTargetIn404 (running green)">
+      <option name="closed" value="true" />
+      <created>1704449306711</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1704449306711</updated>
+    </task>
+    <task id="LOCAL−00015" summary="HttpServer shouldRespondWithRequestTargetIn404 (refactoring)">
+      <option name="closed" value="true" />
+      <created>1704449903826</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1704449903826</updated>
+    </task>
+    <task id="LOCAL−00016" summary="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)">
+      <option name="closed" value="true" />
+      <created>1704450453797</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1704450453797</updated>
+    </task>
+    <task id="LOCAL−00017" summary="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)">
+      <option name="closed" value="true" />
+      <created>1704451914346</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1704451914346</updated>
+    </task>
+    <task id="LOCAL−00018" summary="HttpServer main method uses HttpServer">
+      <option name="closed" value="true" />
+      <created>1704452319259</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1704452319259</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Refactor to assertAll">
+      <option name="closed" value="true" />
+      <created>1704452934331</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1704452934331</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Server should return content type">
+      <option name="closed" value="true" />
+      <created>1704453740069</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1704453740069</updated>
+    </task>
+    <task id="LOCAL−00021" summary="Server shouldServeFiles (running red)">
+      <option name="closed" value="true" />
+      <created>1704454948945</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1704454948945</updated>
+    </task>
+    <task id="LOCAL−00022" summary="Server shouldServeFiles (running green)">
+      <option name="closed" value="true" />
+      <created>1704455973778</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1704455973778</updated>
+    </task>
+    <task id="LOCAL−00023" summary="Server shouldContentTypeFromFileExtension (running green)">
+      <option name="closed" value="true" />
+      <created>1704457540874</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1704457540874</updated>
+    </task>
+    <task id="LOCAL−00024" summary="Server shouldEchoQueryParameter (running green)">
+      <option name="closed" value="true" />
+      <created>1704459607053</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1704459607053</updated>
+    </task>
+    <task id="LOCAL−00025" summary="Updated the README.md with further plans">
+      <option name="closed" value="true" />
+      <created>1704534694049</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1704534694049</updated>
+    </task>
+    <task id="LOCAL−00026" summary="Http server should handle more than one request">
+      <option name="closed" value="true" />
+      <created>1704538223332</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1704538223332</updated>
+    </task>
+    <task id="LOCAL−00027" summary="Http server should handle more than one request (Also works in Chrome)">
+      <option name="closed" value="true" />
+      <created>1704538947751</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1704538947751</updated>
+    </task>
+    <task id="LOCAL−00028" summary="Styling the page">
+      <option name="closed" value="true" />
+      <created>1704539515174</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1704539515174</updated>
+    </task>
+    <task id="LOCAL−00029" summary="More styling + fixes to html pages">
+      <option name="closed" value="true" />
+      <created>1704545936528</created>
+      <option name="number" value="LOCAL−00029" />
+      <option name="presentableId" value="LOCAL−00029" />
+      <updated>1704545936528</updated>
+    </task>
+    <task id="LOCAL−00030" summary="http server should return roles from server (running red)">
+      <option name="closed" value="true" />
+      <created>1704547395083</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1704547395083</updated>
+    </task>
+    <task id="LOCAL−00031" summary="http server should return roles from server (running green)">
+      <option name="closed" value="true" />
+      <created>1704550581214</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1704550581214</updated>
+    </task>
+    <task id="LOCAL−00032" summary="http server should return roles from server (bad refactor)">
+      <option name="closed" value="true" />
+      <created>1704551841594</created>
+      <option name="number" value="LOCAL−00032" />
+      <option name="presentableId" value="LOCAL−00032" />
+      <updated>1704551841594</updated>
+    </task>
+    <task id="LOCAL−00033" summary="http server should return roles from server (good refactor)">
+      <option name="closed" value="true" />
+      <created>1704553156409</created>
+      <option name="number" value="LOCAL−00033" />
+      <option name="presentableId" value="LOCAL−00033" />
+      <updated>1704553156409</updated>
+    </task>
+    <task id="LOCAL−00034" summary="Fixed server hang with 404">
+      <option name="closed" value="true" />
+      <created>1704553711381</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1704553711381</updated>
+    </task>
+    <task id="LOCAL−00035" summary="Http server main sets roles">
+      <option name="closed" value="true" />
+      <created>1704554068589</created>
+      <option name="number" value="LOCAL−00035" />
+      <option name="presentableId" value="LOCAL−00035" />
+      <updated>1704554068589</updated>
+    </task>
+    <task id="LOCAL−00036" summary="Change of requirements: &quot;Hello&quot; needs both first and last names (running red)">
+      <option name="closed" value="true" />
+      <created>1704554559125</created>
+      <option name="number" value="LOCAL−00036" />
+      <option name="presentableId" value="LOCAL−00036" />
+      <updated>1704554559125</updated>
+    </task>
+    <task id="LOCAL−00037" summary="Change of requirements: &quot;Hello&quot; needs both first and last names (running green)">
+      <option name="closed" value="true" />
+      <created>1704555324388</created>
+      <option name="number" value="LOCAL−00037" />
+      <option name="presentableId" value="LOCAL−00037" />
+      <updated>1704555324388</updated>
+    </task>
+    <task id="LOCAL−00038" summary="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)">
+      <option name="closed" value="true" />
+      <created>1704555610663</created>
+      <option name="number" value="LOCAL−00038" />
+      <option name="presentableId" value="LOCAL−00038" />
+      <updated>1704555610663</updated>
+    </task>
+    <task id="LOCAL−00039" summary="Large refactoring: Extracted HttpMessage from HttpClient">
+      <option name="closed" value="true" />
+      <created>1704561416270</created>
+      <option name="number" value="LOCAL−00039" />
+      <option name="presentableId" value="LOCAL−00039" />
+      <updated>1704561416270</updated>
+    </task>
+    <task id="LOCAL−00040" summary="Http server shouldCreateNewPerson (running red)">
+      <option name="closed" value="true" />
+      <created>1704563495869</created>
+      <option name="number" value="LOCAL−00040" />
+      <option name="presentableId" value="LOCAL−00040" />
+      <updated>1704563495869</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -184,15 +449,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lecture plan + changes to .gitignore" />
-    <MESSAGE value="first test runs red" />
-    <MESSAGE value="Define Github Actions" />
-    <MESSAGE value="Define Github Actions (FIX to compiler source)" />
-    <MESSAGE value="Fix Maven surefire plugin" />
-    <MESSAGE value="Trying to fix Github Actions workflow" />
-    <MESSAGE value="Trying to fix Github Actions workflow #2" />
-    <MESSAGE value="Trying to fix Github Actions workflow #3" />
-    <MESSAGE value="Added test report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test report" />
+    <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running red)" />
+    <MESSAGE value="HttpServer shouldRespondWith200ForKnownRequestTarget (running green)" />
+    <MESSAGE value="HttpServer main method uses HttpServer" />
+    <MESSAGE value="Refactor to assertAll" />
+    <MESSAGE value="Server should return content type" />
+    <MESSAGE value="Server shouldServeFiles (running red)" />
+    <MESSAGE value="Server shouldServeFiles (running green)" />
+    <MESSAGE value="Server shouldContentTypeFromFileExtension (running green)" />
+    <MESSAGE value="Server shouldEchoQueryParameter (running green)" />
+    <MESSAGE value="Updated the README.md with further plans" />
+    <MESSAGE value="Http server should handle more than one request" />
+    <MESSAGE value="Http server should handle more than one request (Also works in Chrome)" />
+    <MESSAGE value="Styling the page" />
+    <MESSAGE value="More styling + fixes to html pages" />
+    <MESSAGE value="http server should return roles from server (running red)" />
+    <MESSAGE value="http server should return roles from server (running green)" />
+    <MESSAGE value="http server should return roles from server (bad refactor)" />
+    <MESSAGE value="http server should return roles from server (good refactor)" />
+    <MESSAGE value="Fixed server hang with 404" />
+    <MESSAGE value="Http server main sets roles" />
+    <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (running red)" />
+    <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (running green)" />
+    <MESSAGE value="Change of requirements: &quot;Hello&quot; needs both first and last names (refactor)" />
+    <MESSAGE value="Large refactoring: Extracted HttpMessage from HttpClient" />
+    <MESSAGE value="Http server shouldCreateNewPerson (running red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http server shouldCreateNewPerson (running red)" />
   </component>
 </project>
