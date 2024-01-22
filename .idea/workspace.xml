@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Plan for lecture 9">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Plan for lecture 9 (refactor)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +40,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HttpServer.executor": "Run",
-    "JUnit.HttpClientTest.executor": "Run",
-    "JUnit.HttpServerTest.executor": "Run",
-    "Maven.pgr203-http-project [package].executor": "Run",
-    "Maven.pgr203-http-project [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "working/03",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HttpServer.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.pgr203-http-project-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pgr203-http-project [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pgr203-http-project [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pgr203-http-project [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;working/03&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.HttpServer">
+}</component>
+  <component name="RunManager" selected="JAR Application.pgr203-http-project-1.0-SNAPSHOT.jar">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -98,8 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pgr203-http-project-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/pgr203-http-project-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.pgr203-http-project-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JUnit.HttpClientTest" />
@@ -121,6 +134,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
+      <workItem from="1705925205713" duration="1460000" />
+      <workItem from="1705927016065" duration="463000" />
+      <workItem from="1705927489742" duration="3706000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -199,8 +215,18 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1705921818110</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Plan for lecture 9 (refactor)">
+      <option name="closed" value="true" />
+      <created>1705921957457</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1705921957457</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -224,6 +250,7 @@
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
     <MESSAGE value="Added test report" />
     <MESSAGE value="Plan for lecture 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plan for lecture 9" />
+    <MESSAGE value="Plan for lecture 9 (refactor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plan for lecture 9 (refactor)" />
   </component>
 </project>

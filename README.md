@@ -39,7 +39,7 @@ Lecture 4: HTTP Server
 
 ## Lecture 9
 
-* [ ] Make executable JAR
+* [x] Make executable JAR
 * [ ] Serve HTML from jar-file
 * [ ] PersonDaoTest should handle adding persons to database and listing them
 * [ ] RoleDaoTest should handle adding roles to database and listing them
