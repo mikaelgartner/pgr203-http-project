@@ -47,7 +47,7 @@ Lecture 4: HTTP Server
 * [ ] Password stored in properties-file
 
 
-## Problems left for exam
+## Problems left for exam (only to be solved by the students?)
 
 * [ ] Error handling
 * [ ] URL encoding
