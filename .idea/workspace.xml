@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Create executable jar">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Serve HTML from jar-file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newPerson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/newPerson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sayHello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sayHello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,7 @@
       <updated>1704191440883</updated>
       <workItem from="1705925205713" duration="1460000" />
       <workItem from="1705927016065" duration="463000" />
-      <workItem from="1705927489742" duration="4627000" />
+      <workItem from="1705927489742" duration="5218000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -237,7 +234,14 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1705934513831</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="Serve HTML from jar-file">
+      <option name="closed" value="true" />
+      <created>1705935690962</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1705935690962</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +271,7 @@
     <MESSAGE value="Plan for lecture 9" />
     <MESSAGE value="Plan for lecture 9 (refactor)" />
     <MESSAGE value="Create executable jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create executable jar" />
+    <MESSAGE value="Serve HTML from jar-file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serve HTML from jar-file" />
   </component>
 </project>
