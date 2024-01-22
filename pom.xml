@@ -27,7 +27,21 @@
             <version>1.4.200</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>no.kristiania.httpproject</groupId>
+            <artifactId>pgr203-http-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>8.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.logevents</groupId>
+            <artifactId>logevents</artifactId>
+            <version>0.2.2</version>
+        </dependency>
 
     </dependencies>
 
