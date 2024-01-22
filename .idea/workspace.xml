@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="RoleDaoTest should list saved roles (green)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Person dao should retrieve saved person (red does not compile)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/person/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/TestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,7 @@
     "git-widget-placeholder": "working/03",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/mikae/IdeaProjects/pgr203-http-project/src/main/java/no/kristiania/person",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -69,7 +76,7 @@
       <recent name="C:\Users\mikae\IdeaProjects\pgr203-http-project\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoleDaoTest">
+  <component name="RunManager" selected="JUnit.PersonDaoTest">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -79,21 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pgr203-http-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.kristiania.http.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.kristiania.http" />
-      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpClientTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +100,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.kristiania.http" />
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pgr203-http-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.person" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.person.PersonDaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonDaoTest" />
         <item itemvalue="JUnit.RoleDaoTest" />
         <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JAR Application.pgr203-http-project-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.HttpServer" />
-        <item itemvalue="JUnit.HttpClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +166,7 @@
       <updated>1704191440883</updated>
       <workItem from="1705925205713" duration="1460000" />
       <workItem from="1705927016065" duration="463000" />
-      <workItem from="1705927489742" duration="10999000" />
+      <workItem from="1705927489742" duration="11954000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -308,7 +315,21 @@
       <option name="presentableId" value="LOCAL−00021" />
       <updated>1705941384490</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL−00022" summary="Person dao should retrieve saved person (red does not compile)">
+      <option name="closed" value="true" />
+      <created>1705941806954</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1705941806954</updated>
+    </task>
+    <task id="LOCAL−00023" summary="Person dao should retrieve saved person (red does not compile)">
+      <option name="closed" value="true" />
+      <created>1705941827427</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1705941827427</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +367,7 @@
     <MESSAGE value="RoleDaoTest should list saved roles (still red but getting closer)" />
     <MESSAGE value="RoleDaoTest should list saved roles (still red but getting even closer)" />
     <MESSAGE value="RoleDaoTest should list saved roles (green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RoleDaoTest should list saved roles (green)" />
+    <MESSAGE value="Person dao should retrieve saved person (red does not compile)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Person dao should retrieve saved person (red does not compile)" />
   </component>
 </project>
