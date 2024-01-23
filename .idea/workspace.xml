@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Move HttpServer.main to PersonnelServer">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server should list people from database (red)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <recent name="no.kristiania.http.HttpMessage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpServer">
+  <component name="RunManager" selected="JUnit.All in pgr203-http-project">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -97,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pgr203-http-project" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +105,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="no.kristiania.http" />
-      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpClientTest" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.All in pgr203-http-project" />
+        <item itemvalue="JUnit.HttpServerTest" />
+        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.RoleDaoTest" />
         <item itemvalue="JUnit.PersonDaoTest" />
-        <item itemvalue="JUnit.HttpClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +365,14 @@
       <option name="presentableId" value="LOCAL−00028" />
       <updated>1706024828602</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL−00029" summary="Http server should list people from database (red)">
+      <option name="closed" value="true" />
+      <created>1706025994800</created>
+      <option name="number" value="LOCAL−00029" />
+      <option name="presentableId" value="LOCAL−00029" />
+      <updated>1706025994800</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Define Github Actions" />
     <MESSAGE value="Define Github Actions (FIX to compiler source)" />
     <MESSAGE value="Fix Maven surefire plugin" />
     <MESSAGE value="Trying to fix Github Actions workflow" />
@@ -409,6 +414,7 @@
     <MESSAGE value="Should use AddPersonController for /api/newPerson (cleanup)" />
     <MESSAGE value="HttpServer.main should setup controllers" />
     <MESSAGE value="Move HttpServer.main to PersonnelServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move HttpServer.main to PersonnelServer" />
+    <MESSAGE value="Http server should list people from database (red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http server should list people from database (red)" />
   </component>
 </project>

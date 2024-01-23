@@ -100,6 +100,8 @@ class HttpServerTest {
         Person person2 = PersonDaoTest.examplePerson();
         personDao.save(person2);
 
+        server.addController("/api/people", new ListPeopleController(personDao));
+
         HttpClient client = new HttpClient("localhost", server.getPort(), "/api/people");
         assertThat(client.getMessageBody())
                 .contains(person1.getLastName() + ", " + person1.getFirstName())
@@ -120,7 +122,10 @@ class HttpServerTest {
                 "lastName=Persson&firstName=Test"
         );
         assertEquals(200, postClient.getStatusCode());
-        Person person = personDao.listAll().get(0);
-        assertEquals("Persson", person.getLastName());
+        assertThat(personDao.listAll())
+                .anySatisfy(p -> {
+                    assertThat(p.getFirstName()).isEqualTo("Test");
+                    assertThat(p.getLastName()).isEqualTo("Persson");
+                });
     }
 }
