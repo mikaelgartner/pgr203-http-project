@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Plan for lecture + UML diagram">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Fix to wrong pom.xml implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpServerTest" />
-        <item itemvalue="JUnit.HttpClientTest" />
-        <item itemvalue="JUnit.PersonDaoTest" />
         <item itemvalue="JUnit.RoleDaoTest" />
+        <item itemvalue="JUnit.PersonDaoTest" />
+        <item itemvalue="JUnit.HttpClientTest" />
+        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="Application.HttpServer" />
       </list>
     </recent_temporary>
@@ -162,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
       <workItem from="1706006438825" duration="1737000" />
-      <workItem from="1706008198664" duration="1757000" />
+      <workItem from="1706008198664" duration="2660000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -248,7 +248,14 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1706009439047</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Fix to wrong pom.xml implementation">
+      <option name="closed" value="true" />
+      <created>1706010031528</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1706010031528</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +284,7 @@
     <MESSAGE value="Added test report" />
     <MESSAGE value="Some updates to dependencies in pom.xml file" />
     <MESSAGE value="Plan for lecture + UML diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plan for lecture + UML diagram" />
+    <MESSAGE value="Fix to wrong pom.xml implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix to wrong pom.xml implementation" />
   </component>
 </project>

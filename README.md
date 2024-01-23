@@ -46,7 +46,7 @@ Lecture 4: HTTP Server
 
 
 ## Lecture 10
-* [ ] Uberjar - megajar
+* [x] Uberjar - megajar
 * [ ] Logging
 * [ ] Password stored in properties-file
 * [ ] /api-requestTarget -> Controllers
