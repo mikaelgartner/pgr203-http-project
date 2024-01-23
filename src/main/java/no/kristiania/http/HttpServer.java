@@ -22,6 +22,7 @@ public class HttpServer {
     private static final Logger logger = LoggerFactory.getLogger(HttpServer.class);
 
     private final ServerSocket serverSocket;
+    private final HashMap<String, HttpController> controllers = new HashMap<>();
     private List<Person> people = new ArrayList<>();
     private RoleDao roleDao;
 
@@ -57,6 +58,13 @@ public class HttpServer {
         } else {
             fileTarget = requestTarget;
         }
+
+        if (controllers.containsKey(fileTarget)) {
+            HttpMessage response = controllers.get(fileTarget).handle(httpMessage);
+            response.write(clientSocket);
+            return;
+        }
+
 
         if (fileTarget.equals("/hello")) {
             String yourName = "world";
@@ -167,6 +175,6 @@ public class HttpServer {
     }
 
     public void addController(String path, HttpController controller) {
-
+        controllers.put(path, controller);
     }
 }

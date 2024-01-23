@@ -55,4 +55,13 @@ public class HttpMessage {
         assert expectedNewline == '\n';
         return buffer.toString();   //Returner så den verdien
     }
+
+    public void write(Socket socket) throws IOException {
+        String response = startLine + "\r\n" +
+                "Content-Length: " + messageBody.length() + "\r\n" +
+                "Connection: close\r\n" +
+                "\r\n" +
+                messageBody;
+        socket.getOutputStream().write(response.getBytes());
+    }
 }

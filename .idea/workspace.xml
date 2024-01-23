@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use RoleOptionsController for /api/roleOptions (red, does not compile)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/RoleOptionsController.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use RoleOptionsController for /api/roleOptions (compiles)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/RoleOptionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/RoleOptionsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +279,14 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1706019799520</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Should use RoleOptionsController for /api/roleOptions (compiles)">
+      <option name="closed" value="true" />
+      <created>1706020164039</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1706020164039</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +319,7 @@
     <MESSAGE value="Use maven-shade-plugin to create uber-jar" />
     <MESSAGE value="Logging" />
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (red, does not compile)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should use RoleOptionsController for /api/roleOptions (red, does not compile)" />
+    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (compiles)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should use RoleOptionsController for /api/roleOptions (compiles)" />
   </component>
 </project>
