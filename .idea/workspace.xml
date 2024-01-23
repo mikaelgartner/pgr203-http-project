@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server should list people from database (fixed bystander test)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server should list people from database (green)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/listPeople.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HttpServer.executor": "Run",
+    "Application.PersonnelServer.executor": "Run",
     "JUnit.All in pgr203-http-project.executor": "Run",
     "JUnit.HttpClientTest.executor": "Run",
     "JUnit.HttpServerTest.executor": "Run",
@@ -73,9 +77,22 @@
       <recent name="no.kristiania.http.HttpMessage" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in pgr203-http-project">
+  <component name="RunManager" selected="Application.PersonnelServer">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
+      <module name="pgr203-http-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonnelServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.PersonnelServer" />
       <module name="pgr203-http-project" />
       <extension name="coverage">
         <pattern>
@@ -110,21 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pgr203-http-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.kristiania.person.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.kristiania.person" />
-      <option name="MAIN_CLASS_NAME" value="no.kristiania.person.PersonDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RoleDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pgr203-http-project" />
       <extension name="coverage">
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonnelServer" />
+        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.All in pgr203-http-project" />
         <item itemvalue="JUnit.HttpServerTest" />
-        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.RoleDaoTest" />
-        <item itemvalue="JUnit.PersonDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +380,14 @@
       <option name="presentableId" value="LOCAL−00030" />
       <updated>1706026937465</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL−00031" summary="Http server should list people from database (green)">
+      <option name="closed" value="true" />
+      <created>1706027286916</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1706027286916</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix Maven surefire plugin" />
     <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
@@ -421,6 +429,7 @@
     <MESSAGE value="Move HttpServer.main to PersonnelServer" />
     <MESSAGE value="Http server should list people from database (red)" />
     <MESSAGE value="Http server should list people from database (fixed bystander test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Http server should list people from database (fixed bystander test)" />
+    <MESSAGE value="Http server should list people from database (green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http server should list people from database (green)" />
   </component>
 </project>
