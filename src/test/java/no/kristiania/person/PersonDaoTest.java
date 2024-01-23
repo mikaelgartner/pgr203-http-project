@@ -32,7 +32,7 @@ public class PersonDaoTest {
                 .contains(person.getId(), anotherPerson.getId());
     }
 
-    private Person examplePerson() {
+    public static Person examplePerson() {
         Person person = new Person();
         person.setFirstName(TestData.pickOne("Johannes", "Angelica", "Mikael", "Annie", "Sophie"));
         person.setLastName(TestData.pickOne("Jonsson", "Persson", "Olsson", "Fredriksson", "Jensen"));

@@ -49,11 +49,9 @@ public class HttpServer {
         if (controllers.containsKey(fileTarget)) {
             HttpMessage response = controllers.get(fileTarget).handle(httpMessage);
             response.write(clientSocket);
-            return;
-        }
-
-
-        if (fileTarget.equals("/hello")) {
+            //lines of code beneath from line 54 up until and including line 62, should either be moved to
+            //a controller or be removed all together
+        } else if (fileTarget.equals("/hello")) {
             String yourName = "world";
             if (query != null) {
                 Map<String, String> queryMap = HttpMessage.parseRequestParameters(query);
@@ -62,6 +60,7 @@ public class HttpServer {
             String responseText = "<p>Hello " + yourName + "</p>";
 
             writeOkResponse(clientSocket, responseText, " text/html");
+            //code lines from 65 up to and inluding code line 77 should maybe me moved to a Controller?
         }   else {
             InputStream fileResource = getClass().getResourceAsStream(fileTarget);
             if (fileResource != null) {

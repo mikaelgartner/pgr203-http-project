@@ -1,9 +1,6 @@
 package no.kristiania.http;
 
-import no.kristiania.person.Person;
-import no.kristiania.person.PersonDao;
-import no.kristiania.person.RoleDao;
-import no.kristiania.person.TestData;
+import no.kristiania.person.*;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -12,6 +9,7 @@ import java.nio.file.Paths;
 import java.sql.SQLException;
 import java.time.LocalTime;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -90,6 +88,23 @@ class HttpServerTest {
                 "<option value=1>Teacher</option><option value=2>Student</option>",
                 client.getMessageBody()
         );
+    }
+
+
+    @Test
+    void shouldListPeopleFromDatabase() throws SQLException, IOException {
+        PersonDao personDao = new PersonDao(TestData.testDataSource());
+
+        Person person1 = PersonDaoTest.examplePerson();
+        personDao.save(person1);
+        Person person2 = PersonDaoTest.examplePerson();
+        personDao.save(person2);
+
+        HttpClient client = new HttpClient("localhost", server.getPort(), "/api/people");
+        assertThat(client.getMessageBody())
+                .contains(person1.getLastName() + ", " + person1.getFirstName())
+                .contains(person2.getLastName() + ", " + person2.getFirstName())
+                ;
     }
 
     @Test

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="HttpServer.main should setup controllers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Move HttpServer.main to PersonnelServer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/person/PersonDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +359,14 @@
       <option name="presentableId" value="LOCAL−00027" />
       <updated>1706024481656</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL−00028" summary="Move HttpServer.main to PersonnelServer">
+      <option name="closed" value="true" />
+      <created>1706024828602</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1706024828602</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +384,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first test runs red" />
     <MESSAGE value="Define Github Actions" />
     <MESSAGE value="Define Github Actions (FIX to compiler source)" />
     <MESSAGE value="Fix Maven surefire plugin" />
@@ -401,6 +408,7 @@
     <MESSAGE value="Should use AddPersonController for /api/newPerson (green)" />
     <MESSAGE value="Should use AddPersonController for /api/newPerson (cleanup)" />
     <MESSAGE value="HttpServer.main should setup controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="HttpServer.main should setup controllers" />
+    <MESSAGE value="Move HttpServer.main to PersonnelServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move HttpServer.main to PersonnelServer" />
   </component>
 </project>
