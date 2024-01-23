@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use AddPersonController for /api/newPerson (still red, but compiles)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use AddPersonController for /api/newPerson (green)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/AddPersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/AddPersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +335,14 @@
       <option name="presentableId" value="LOCAL−00024" />
       <updated>1706023228468</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL−00025" summary="Should use AddPersonController for /api/newPerson (green)">
+      <option name="closed" value="true" />
+      <created>1706023314535</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1706023314535</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +383,7 @@
     <MESSAGE value="Should use AddPersonController for /api/newPerson (red)" />
     <MESSAGE value="Should use AddPersonController for /api/newPerson (red, but compiles)" />
     <MESSAGE value="Should use AddPersonController for /api/newPerson (still red, but compiles)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should use AddPersonController for /api/newPerson (still red, but compiles)" />
+    <MESSAGE value="Should use AddPersonController for /api/newPerson (green)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should use AddPersonController for /api/newPerson (green)" />
   </component>
 </project>
