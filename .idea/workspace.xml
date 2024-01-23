@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use AddPersonController for /api/newPerson (cleanup)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="HttpServer.main should setup controllers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
@@ -69,6 +70,7 @@
       <recent name="no.kristiania.http" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="no.kristiania.http.PersonnelServer" />
       <recent name="no.kristiania.http.HttpMessage" />
     </key>
   </component>
@@ -349,7 +351,14 @@
       <option name="presentableId" value="LOCAL−00026" />
       <updated>1706023587745</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL−00027" summary="HttpServer.main should setup controllers">
+      <option name="closed" value="true" />
+      <created>1706024481656</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1706024481656</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lecture plan + changes to .gitignore" />
     <MESSAGE value="first test runs red" />
     <MESSAGE value="Define Github Actions" />
     <MESSAGE value="Define Github Actions (FIX to compiler source)" />
@@ -392,6 +400,7 @@
     <MESSAGE value="Should use AddPersonController for /api/newPerson (still red, but compiles)" />
     <MESSAGE value="Should use AddPersonController for /api/newPerson (green)" />
     <MESSAGE value="Should use AddPersonController for /api/newPerson (cleanup)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should use AddPersonController for /api/newPerson (cleanup)" />
+    <MESSAGE value="HttpServer.main should setup controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpServer.main should setup controllers" />
   </component>
 </project>
