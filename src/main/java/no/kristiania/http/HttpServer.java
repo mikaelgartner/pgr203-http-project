@@ -4,6 +4,8 @@ import no.kristiania.person.Person;
 import no.kristiania.person.RoleDao;
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGSimpleDataSource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.sql.DataSource;
 import java.io.ByteArrayOutputStream;
@@ -18,6 +20,8 @@ import java.util.List;
 import java.util.Map;
 
 public class HttpServer {
+
+    private static final Logger logger = LoggerFactory.getLogger(HttpServer.class);
 
     private final ServerSocket serverSocket;
     private List<Person> people = new ArrayList<>();
@@ -132,6 +136,7 @@ public class HttpServer {
     public static void main(String[] args) throws IOException {
         HttpServer httpServer = new HttpServer(1962);
         httpServer.setRoleDao(new RoleDao(createDataSource()));
+        logger.info("Starting http://localhost:{}/index.html", httpServer.getPort());
     }
 
     private static DataSource createDataSource() {
