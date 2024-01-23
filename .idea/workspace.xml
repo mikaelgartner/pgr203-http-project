@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Person dao should list all people (green)">
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Person dao should list all people (red)  Unsupported Database: PostgreSQL 16.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V002__create_table_people.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V002__create_table_people.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "JUnit.PersonDaoTest.executor": "Run",
     "JUnit.RoleDaoTest.executor": "Run",
     "Maven.pgr203-http-project [clean].executor": "Run",
+    "Maven.pgr203-http-project [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.pgr203-http-project [package].executor": "Run",
     "Maven.pgr203-http-project [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -145,9 +146,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HttpServer" />
+        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JUnit.PersonDaoTest" />
         <item itemvalue="JUnit.RoleDaoTest" />
-        <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JAR Application.pgr203-http-project-1.0-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
@@ -169,7 +170,7 @@
       <updated>1704191440883</updated>
       <workItem from="1705925205713" duration="1460000" />
       <workItem from="1705927016065" duration="463000" />
-      <workItem from="1705927489742" duration="15800000" />
+      <workItem from="1705927489742" duration="20148000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -360,7 +361,14 @@
       <option name="presentableId" value="LOCAL−00027" />
       <updated>1705945014974</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL−00028" summary="Person dao should list all people (red)  Unsupported Database: PostgreSQL 16.1">
+      <option name="closed" value="true" />
+      <created>1705946687896</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1705946687896</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lecture plan + changes to .gitignore" />
     <MESSAGE value="first test runs red" />
     <MESSAGE value="Define Github Actions" />
     <MESSAGE value="Define Github Actions (FIX to compiler source)" />
@@ -403,6 +410,7 @@
     <MESSAGE value="Person dao should retrieve saved person (green)" />
     <MESSAGE value="Person dao should list all people (red)" />
     <MESSAGE value="Person dao should list all people (green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person dao should list all people (green)" />
+    <MESSAGE value="Person dao should list all people (red)  Unsupported Database: PostgreSQL 16.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Person dao should list all people (red)  Unsupported Database: PostgreSQL 16.1" />
   </component>
 </project>
