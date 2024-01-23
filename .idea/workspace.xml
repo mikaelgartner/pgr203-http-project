@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use RoleOptionsController for /api/roleOptions (red still)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpMessage.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/RoleOptionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/RoleOptionsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +291,14 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1706021041478</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)">
+      <option name="closed" value="true" />
+      <created>1706021314804</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1706021314804</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +333,7 @@
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (red, does not compile)" />
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (compiles)" />
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (red still)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should use RoleOptionsController for /api/roleOptions (red still)" />
+    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)" />
   </component>
 </project>
