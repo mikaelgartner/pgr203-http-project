@@ -1,7 +1,6 @@
 package no.kristiania.http;
 
 import no.kristiania.person.Person;
-import no.kristiania.person.RoleDao;
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGSimpleDataSource;
 import org.slf4j.Logger;
@@ -24,7 +23,6 @@ public class HttpServer {
     private final ServerSocket serverSocket;
     private final HashMap<String, HttpController> controllers = new HashMap<>();
     private List<Person> people = new ArrayList<>();
-    private RoleDao roleDao;
 
     public HttpServer(int serverPort) throws IOException {
         serverSocket = new ServerSocket(serverPort);
@@ -81,17 +79,7 @@ public class HttpServer {
             person.setLastName(queryMap.get("lastName"));
             people.add(person);
             writeOkResponse(clientSocket, "it is done", "text/html");
-        } else if (fileTarget.equals("/api/roleOptions")) {
-            String responseText = "";
-
-            int value = 1;
-            for (String role : roleDao.listAll()) {
-                responseText += "<option value=" + (value++) + ">" + role + "</option>";
-            }
-
-
-            writeOkResponse(clientSocket, responseText, " text/html");
-        } else {
+        }  else {
             InputStream fileResource = getClass().getResourceAsStream(fileTarget);
             if (fileResource != null) {
                 ByteArrayOutputStream buffer = new ByteArrayOutputStream();
@@ -141,7 +129,7 @@ public class HttpServer {
 
     public static void main(String[] args) throws IOException {
         HttpServer httpServer = new HttpServer(1962);
-        httpServer.setRoleDao(new RoleDao(createDataSource()));
+        createDataSource();
         logger.info("Starting http://localhost:{}/index.html", httpServer.getPort());
     }
 
@@ -164,10 +152,6 @@ public class HttpServer {
 
     public int getPort() {
         return serverSocket.getLocalPort();
-    }
-
-    public void setRoleDao(RoleDao roleDao) {
-        this.roleDao = roleDao;
     }
 
     public List<Person> getPeople() {
