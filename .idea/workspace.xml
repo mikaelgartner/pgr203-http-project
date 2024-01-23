@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server should list people from database (red)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server should list people from database (fixed bystander test)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +371,14 @@
       <option name="presentableId" value="LOCAL−00029" />
       <updated>1706025994800</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL−00030" summary="Http server should list people from database (fixed bystander test)">
+      <option name="closed" value="true" />
+      <created>1706026937465</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1706026937465</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Define Github Actions (FIX to compiler source)" />
     <MESSAGE value="Fix Maven surefire plugin" />
     <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
@@ -415,6 +420,7 @@
     <MESSAGE value="HttpServer.main should setup controllers" />
     <MESSAGE value="Move HttpServer.main to PersonnelServer" />
     <MESSAGE value="Http server should list people from database (red)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Http server should list people from database (red)" />
+    <MESSAGE value="Http server should list people from database (fixed bystander test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http server should list people from database (fixed bystander test)" />
   </component>
 </project>
