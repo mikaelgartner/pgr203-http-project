@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Some updates to dependencies in pom.xml file">
-      <change afterPath="$PROJECT_DIR$/doc/httpServer.puml" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Plan for lecture + UML diagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
       <workItem from="1706006438825" duration="1737000" />
-      <workItem from="1706008198664" duration="1171000" />
+      <workItem from="1706008198664" duration="1757000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -242,7 +241,14 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1706004913256</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Plan for lecture + UML diagram">
+      <option name="closed" value="true" />
+      <created>1706009439047</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1706009439047</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +276,7 @@
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
     <MESSAGE value="Added test report" />
     <MESSAGE value="Some updates to dependencies in pom.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some updates to dependencies in pom.xml file" />
+    <MESSAGE value="Plan for lecture + UML diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plan for lecture + UML diagram" />
   </component>
 </project>
