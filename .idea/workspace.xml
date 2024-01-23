@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use RoleOptionsController for /api/roleOptions (green)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Should use RoleOptionsController for /api/roleOptions (cleanup)">
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +303,14 @@
       <option name="presentableId" value="LOCAL−00020" />
       <updated>1706021543779</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL−00021" summary="Should use RoleOptionsController for /api/roleOptions (cleanup)">
+      <option name="closed" value="true" />
+      <created>1706021866458</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1706021866458</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +347,7 @@
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (red still)" />
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)" />
     <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should use RoleOptionsController for /api/roleOptions (green)" />
+    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (cleanup)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should use RoleOptionsController for /api/roleOptions (cleanup)" />
   </component>
 </project>
