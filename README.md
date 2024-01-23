@@ -39,17 +39,18 @@ Lecture 4: HTTP Server
 
 ## Lecture 9
 
-* [ ] Make executable JAR
-* [ ] Serve HTML from jar-file
-* [ ] PersonDaoTest should handle adding persons to database and listing them
-* [ ] RoleDaoTest should handle adding roles to database and listing them
+* [x] Make executable JAR
+* [x] Serve HTML from jar-file
+* [x] RoleDaoTest should handle adding roles to database and listing them
+* [x] PersonDaoTest should handle adding persons to database and listing them
 * [ ] /api-requestTarget -> Controllers
 * [ ] Password stored in properties-file
 
 
-## Problems left for exam
+## Problems left for exam (only to be solved by the students?)
 
 * [ ] Error handling
 * [ ] URL encoding
 * [ ] Update existing data in the database
 * [ ] GET /api/people should return all people, POST /api/people should create new person
+* [ ] Generalize AbstractDao.insert

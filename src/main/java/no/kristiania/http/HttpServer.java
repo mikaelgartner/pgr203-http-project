@@ -1,11 +1,17 @@
 package no.kristiania.http;
 
+import no.kristiania.person.Person;
+import no.kristiania.person.RoleDao;
+import org.flywaydb.core.Flyway;
+import org.postgresql.ds.PGSimpleDataSource;
+
+import javax.sql.DataSource;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,9 +20,8 @@ import java.util.Map;
 public class HttpServer {
 
     private final ServerSocket serverSocket;
-    private Path rootDirectory;
-    private List<String> roles = new ArrayList<>();
     private List<Person> people = new ArrayList<>();
+    private RoleDao roleDao;
 
     public HttpServer(int serverPort) throws IOException {
         serverSocket = new ServerSocket(serverPort);
@@ -29,12 +34,12 @@ public class HttpServer {
             while (true) {
                 handleClient();
             }
-        } catch (IOException e) {
+        } catch (IOException | SQLException e) {
             e.printStackTrace();
         }
     }
 
-    private void handleClient() throws IOException {
+    private void handleClient() throws IOException, SQLException {
         Socket clientSocket = serverSocket.accept();
 
         HttpMessage httpMessage = new HttpMessage(clientSocket);
@@ -70,15 +75,18 @@ public class HttpServer {
             String responseText = "";
 
             int value = 1;
-            for (String role : roles) {
+            for (String role : roleDao.listAll()) {
                 responseText += "<option value=" + (value++) + ">" + role + "</option>";
             }
 
 
             writeOkResponse(clientSocket, responseText, " text/html");
         } else {
-            if (rootDirectory != null && Files.exists(rootDirectory.resolve(fileTarget.substring(1)))) {
-                String responseText = Files.readString(rootDirectory.resolve(fileTarget.substring(1)));
+            InputStream fileResource = getClass().getResourceAsStream(fileTarget);
+            if (fileResource != null) {
+                ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+                fileResource.transferTo(buffer);
+                String responseText = buffer.toString();
 
                 String contentType = "text/plain";
                 if (requestTarget.endsWith(".html")) {
@@ -123,20 +131,24 @@ public class HttpServer {
 
     public static void main(String[] args) throws IOException {
         HttpServer httpServer = new HttpServer(1962);
-        httpServer.setRoles(List.of("Student", "Teaching assistant", "Teacher"));
-        httpServer.setRoot(Paths.get("."));
+        httpServer.setRoleDao(new RoleDao(createDataSource()));
+    }
+
+    private static DataSource createDataSource() {
+        PGSimpleDataSource dataSource = new PGSimpleDataSource();
+        dataSource.setURL("jdbc:postgresql://localhost:5432/person_db");
+        dataSource.setUser("person_dbuser");
+        dataSource.setPassword("KXWYJ5';8mvSA^.]f2");
+        Flyway.configure().dataSource(dataSource).load().migrate();
+        return dataSource;
     }
 
     public int getPort() {
         return serverSocket.getLocalPort();
     }
 
-    public void setRoot(Path rootDirectory) {
-        this.rootDirectory = rootDirectory;
-    }
-
-    public void setRoles(List<String> roles) {
-        this.roles = roles;
+    public void setRoleDao(RoleDao roleDao) {
+        this.roleDao = roleDao;
     }
 
     public List<Person> getPeople() {

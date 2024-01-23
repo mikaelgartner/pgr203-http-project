@@ -1,11 +1,14 @@
 package no.kristiania.http;
 
+import no.kristiania.person.Person;
+import no.kristiania.person.RoleDao;
+import no.kristiania.person.TestData;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.SQLException;
 import java.time.LocalTime;
 import java.util.List;
 
@@ -58,8 +61,6 @@ class HttpServerTest {
 
     @Test
     void shouldServeFiles() throws IOException {
-        server.setRoot(Paths.get("target/test-classes"));
-
         String fileContent = "A file created at " + LocalTime.now();
         Files.write(Paths.get("target/test-classes/example-file.txt"), fileContent.getBytes());
 
@@ -70,8 +71,6 @@ class HttpServerTest {
 
     @Test
     void shouldUseFileExtensionForContentType() throws IOException {
-        server.setRoot(Paths.get("target/test-classes"));
-
         String fileContent = "<p>Hello</p>";
         Files.write(Paths.get("target/test-classes/example-file.html"), fileContent.getBytes());
 
@@ -80,8 +79,11 @@ class HttpServerTest {
     }
 
     @Test
-    void shouldReturnRolesFromServer() throws IOException {
-        server.setRoles(List.of("Teacher", "Student"));
+    void shouldReturnRolesFromServer() throws IOException, SQLException {
+        RoleDao roleDao = new RoleDao(TestData.testDataSource());
+        roleDao.save("Teacher");
+        roleDao.save("Student");
+        server.setRoleDao(roleDao);
 
         HttpClient client = new HttpClient("localhost", server.getPort(), "/api/roleOptions");
         assertEquals(
