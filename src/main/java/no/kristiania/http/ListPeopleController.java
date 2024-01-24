@@ -6,6 +6,7 @@ import no.kristiania.person.PersonDao;
 import java.sql.SQLException;
 
 public class ListPeopleController implements HttpController {
+    public static final String PATH = "/api/people";
     private final PersonDao personDao;
 
     public ListPeopleController(PersonDao personDao) {

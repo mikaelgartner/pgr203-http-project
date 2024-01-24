@@ -19,8 +19,15 @@ public class AddPersonController implements HttpController {
         Person person = new Person();
         person.setFirstName(queryMap.get("firstName"));
         person.setLastName(queryMap.get("lastName"));
+
+        if (person.getFirstName() == null || person.getFirstName().isBlank()) {
+            return new HttpMessage("HTTP/1.1 400 request error", "First name must be provided");
+        } else if (person.getLastName() == null || person.getLastName().isBlank()) {
+            return new HttpMessage("HTTP/1.1 400 request error", "Last name must be provided");
+        }
+
         personDao.save(person);
 
-        return new HttpMessage("HTTP/1.1 200 OK", "It is done");
+        return new HttpMessage("HTTP/1.1 200 OK", "Person successfully added to the database");
     }
 }

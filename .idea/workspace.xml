@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Http server should list people from database (green)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/listPeople.html" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Add listPeople.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V003__insert_roles.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/AddPersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/AddPersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V001__create_table_roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V001__create_table_roles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +57,7 @@
     "JUnit.HttpServerTest.executor": "Run",
     "JUnit.PersonDaoTest.executor": "Run",
     "JUnit.RoleDaoTest.executor": "Run",
+    "Maven.pgr203-http-project [clean].executor": "Run",
     "Maven.pgr203-http-project [package].executor": "Run",
     "Maven.pgr203-http-project [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -73,11 +79,12 @@
       <recent name="no.kristiania.http" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="no.kristiania.http.ListPeopleController" />
       <recent name="no.kristiania.http.PersonnelServer" />
       <recent name="no.kristiania.http.HttpMessage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonnelServer">
+  <component name="RunManager" selected="JUnit.All in pgr203-http-project">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -144,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in pgr203-http-project" />
         <item itemvalue="Application.PersonnelServer" />
         <item itemvalue="Application.HttpServer" />
-        <item itemvalue="JUnit.All in pgr203-http-project" />
         <item itemvalue="JUnit.HttpServerTest" />
         <item itemvalue="JUnit.RoleDaoTest" />
       </list>
@@ -387,7 +394,14 @@
       <option name="presentableId" value="LOCAL−00031" />
       <updated>1706027286916</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL−00032" summary="Add listPeople.html">
+      <option name="closed" value="true" />
+      <created>1706028668713</created>
+      <option name="number" value="LOCAL−00032" />
+      <option name="presentableId" value="LOCAL−00032" />
+      <updated>1706028668713</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
     <MESSAGE value="Added test report" />
@@ -430,6 +443,7 @@
     <MESSAGE value="Http server should list people from database (red)" />
     <MESSAGE value="Http server should list people from database (fixed bystander test)" />
     <MESSAGE value="Http server should list people from database (green)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Http server should list people from database (green)" />
+    <MESSAGE value="Add listPeople.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add listPeople.html" />
   </component>
 </project>

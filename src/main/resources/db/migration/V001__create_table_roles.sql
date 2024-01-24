@@ -1,4 +1,4 @@
-create table ROLES
+create table roles
 (
     id serial primary key,
     name varchar(100) not null

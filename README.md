@@ -49,7 +49,7 @@ Lecture 4: HTTP Server
 * [x] Uberjar - Megajar
 * [x] Logging
 * [x] Password stored in properties-file
-* [ ] /api-requestTarget -> Controllers
+* [x] /api-requestTarget -> Controllers
 
 
 ## Problems left for exam (only to be solved by the students?)

@@ -79,13 +79,11 @@ class HttpServerTest {
     @Test
     void shouldReturnRolesFromServer() throws IOException, SQLException {
         RoleDao roleDao = new RoleDao(TestData.testDataSource());
-        roleDao.save("Teacher");
-        roleDao.save("Student");
         server.addController("/api/roleOptions", new RoleOptionsController(roleDao));
 
         HttpClient client = new HttpClient("localhost", server.getPort(), "/api/roleOptions");
         assertEquals(
-                "<option value=1>Teacher</option><option value=2>Student</option>",
+                "<option value=1>Teacher</option><option value=2>Student</option><option value=3>Assistant</option>",
                 client.getMessageBody()
         );
     }
@@ -100,7 +98,7 @@ class HttpServerTest {
         Person person2 = PersonDaoTest.examplePerson();
         personDao.save(person2);
 
-        server.addController("/api/people", new ListPeopleController(personDao));
+        server.addController(ListPeopleController.PATH, new ListPeopleController(personDao));
 
         HttpClient client = new HttpClient("localhost", server.getPort(), "/api/people");
         assertThat(client.getMessageBody())
