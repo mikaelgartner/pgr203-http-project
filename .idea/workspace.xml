@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Add listPeople.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V003__insert_roles.sql" afterDir="false" />
+    <list default="true" id="cf17532c-21ef-445b-b964-59e901d9bcc9" name="Changes" comment="Added test report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/AddPersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/AddPersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/ListPeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/PersonnelServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V001__create_table_roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V001__create_table_roles.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,36 +41,18 @@
     "JUnit.All in pgr203-http-project.executor": "Run",
     "JUnit.HttpClientTest.executor": "Run",
     "JUnit.HttpServerTest.executor": "Run",
-    "JUnit.PersonDaoTest.executor": "Run",
-    "JUnit.RoleDaoTest.executor": "Run",
-    "Maven.pgr203-http-project [clean].executor": "Run",
     "Maven.pgr203-http-project [package].executor": "Run",
     "Maven.pgr203-http-project [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "working/04",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="no.kristiania.http" />
-    </key>
-    <key name="MoveMembersDialog.RECENTS_KEY">
-      <recent name="no.kristiania.http.ListPeopleController" />
-      <recent name="no.kristiania.http.PersonnelServer" />
-      <recent name="no.kristiania.http.HttpMessage" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.All in pgr203-http-project">
+  <component name="RunManager" selected="Application.PersonnelServer">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="pgr203-http-project" />
@@ -119,16 +87,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pgr203-http-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="PATTERN" value="no.kristiania.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="no.kristiania.http" />
-      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
+      <option name="PACKAGE_NAME" value="no.kristiania.person" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.person.PersonDaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in pgr203-http-project" />
         <item itemvalue="Application.PersonnelServer" />
-        <item itemvalue="Application.HttpServer" />
-        <item itemvalue="JUnit.HttpServerTest" />
+        <item itemvalue="JUnit.All in pgr203-http-project" />
         <item itemvalue="JUnit.RoleDaoTest" />
+        <item itemvalue="JUnit.PersonDaoTest" />
+        <item itemvalue="Application.HttpServer" />
       </list>
     </recent_temporary>
   </component>
@@ -174,8 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704191440883</updated>
-      <workItem from="1706006438825" duration="1737000" />
-      <workItem from="1706008198664" duration="5114000" />
     </task>
     <task id="LOCAL−00001" summary="Lecture plan + changes to .gitignore">
       <option name="closed" value="true" />
@@ -247,165 +213,8 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1704361386335</updated>
     </task>
-    <task id="LOCAL−00011" summary="Some updates to dependencies in pom.xml file">
-      <option name="closed" value="true" />
-      <created>1706004913256</created>
-      <option name="number" value="LOCAL−00011" />
-      <option name="presentableId" value="LOCAL−00011" />
-      <updated>1706004913256</updated>
-    </task>
-    <task id="LOCAL−00012" summary="Plan for lecture + UML diagram">
-      <option name="closed" value="true" />
-      <created>1706009439047</created>
-      <option name="number" value="LOCAL−00012" />
-      <option name="presentableId" value="LOCAL−00012" />
-      <updated>1706009439047</updated>
-    </task>
-    <task id="LOCAL−00013" summary="Fix to wrong pom.xml implementation">
-      <option name="closed" value="true" />
-      <created>1706010031528</created>
-      <option name="number" value="LOCAL−00013" />
-      <option name="presentableId" value="LOCAL−00013" />
-      <updated>1706010031528</updated>
-    </task>
-    <task id="LOCAL−00014" summary="Use maven-shade-plugin to create uber-jar">
-      <option name="closed" value="true" />
-      <created>1706010999674</created>
-      <option name="number" value="LOCAL−00014" />
-      <option name="presentableId" value="LOCAL−00014" />
-      <updated>1706010999674</updated>
-    </task>
-    <task id="LOCAL−00015" summary="Logging">
-      <option name="closed" value="true" />
-      <created>1706012301098</created>
-      <option name="number" value="LOCAL−00015" />
-      <option name="presentableId" value="LOCAL−00015" />
-      <updated>1706012301098</updated>
-    </task>
-    <task id="LOCAL−00016" summary="Should use RoleOptionsController for /api/roleOptions (red, does not compile)">
-      <option name="closed" value="true" />
-      <created>1706019799520</created>
-      <option name="number" value="LOCAL−00016" />
-      <option name="presentableId" value="LOCAL−00016" />
-      <updated>1706019799520</updated>
-    </task>
-    <task id="LOCAL−00017" summary="Should use RoleOptionsController for /api/roleOptions (compiles)">
-      <option name="closed" value="true" />
-      <created>1706020164039</created>
-      <option name="number" value="LOCAL−00017" />
-      <option name="presentableId" value="LOCAL−00017" />
-      <updated>1706020164039</updated>
-    </task>
-    <task id="LOCAL−00018" summary="Should use RoleOptionsController for /api/roleOptions (red still)">
-      <option name="closed" value="true" />
-      <created>1706021041478</created>
-      <option name="number" value="LOCAL−00018" />
-      <option name="presentableId" value="LOCAL−00018" />
-      <updated>1706021041478</updated>
-    </task>
-    <task id="LOCAL−00019" summary="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)">
-      <option name="closed" value="true" />
-      <created>1706021314804</created>
-      <option name="number" value="LOCAL−00019" />
-      <option name="presentableId" value="LOCAL−00019" />
-      <updated>1706021314804</updated>
-    </task>
-    <task id="LOCAL−00020" summary="Should use RoleOptionsController for /api/roleOptions (green)">
-      <option name="closed" value="true" />
-      <created>1706021543779</created>
-      <option name="number" value="LOCAL−00020" />
-      <option name="presentableId" value="LOCAL−00020" />
-      <updated>1706021543779</updated>
-    </task>
-    <task id="LOCAL−00021" summary="Should use RoleOptionsController for /api/roleOptions (cleanup)">
-      <option name="closed" value="true" />
-      <created>1706021866458</created>
-      <option name="number" value="LOCAL−00021" />
-      <option name="presentableId" value="LOCAL−00021" />
-      <updated>1706021866458</updated>
-    </task>
-    <task id="LOCAL−00022" summary="Should use AddPersonController for /api/newPerson (red)">
-      <option name="closed" value="true" />
-      <created>1706022503643</created>
-      <option name="number" value="LOCAL−00022" />
-      <option name="presentableId" value="LOCAL−00022" />
-      <updated>1706022503643</updated>
-    </task>
-    <task id="LOCAL−00023" summary="Should use AddPersonController for /api/newPerson (red, but compiles)">
-      <option name="closed" value="true" />
-      <created>1706022707854</created>
-      <option name="number" value="LOCAL−00023" />
-      <option name="presentableId" value="LOCAL−00023" />
-      <updated>1706022707854</updated>
-    </task>
-    <task id="LOCAL−00024" summary="Should use AddPersonController for /api/newPerson (still red, but compiles)">
-      <option name="closed" value="true" />
-      <created>1706023228468</created>
-      <option name="number" value="LOCAL−00024" />
-      <option name="presentableId" value="LOCAL−00024" />
-      <updated>1706023228468</updated>
-    </task>
-    <task id="LOCAL−00025" summary="Should use AddPersonController for /api/newPerson (green)">
-      <option name="closed" value="true" />
-      <created>1706023314535</created>
-      <option name="number" value="LOCAL−00025" />
-      <option name="presentableId" value="LOCAL−00025" />
-      <updated>1706023314535</updated>
-    </task>
-    <task id="LOCAL−00026" summary="Should use AddPersonController for /api/newPerson (cleanup)">
-      <option name="closed" value="true" />
-      <created>1706023587745</created>
-      <option name="number" value="LOCAL−00026" />
-      <option name="presentableId" value="LOCAL−00026" />
-      <updated>1706023587745</updated>
-    </task>
-    <task id="LOCAL−00027" summary="HttpServer.main should setup controllers">
-      <option name="closed" value="true" />
-      <created>1706024481656</created>
-      <option name="number" value="LOCAL−00027" />
-      <option name="presentableId" value="LOCAL−00027" />
-      <updated>1706024481656</updated>
-    </task>
-    <task id="LOCAL−00028" summary="Move HttpServer.main to PersonnelServer">
-      <option name="closed" value="true" />
-      <created>1706024828602</created>
-      <option name="number" value="LOCAL−00028" />
-      <option name="presentableId" value="LOCAL−00028" />
-      <updated>1706024828602</updated>
-    </task>
-    <task id="LOCAL−00029" summary="Http server should list people from database (red)">
-      <option name="closed" value="true" />
-      <created>1706025994800</created>
-      <option name="number" value="LOCAL−00029" />
-      <option name="presentableId" value="LOCAL−00029" />
-      <updated>1706025994800</updated>
-    </task>
-    <task id="LOCAL−00030" summary="Http server should list people from database (fixed bystander test)">
-      <option name="closed" value="true" />
-      <created>1706026937465</created>
-      <option name="number" value="LOCAL−00030" />
-      <option name="presentableId" value="LOCAL−00030" />
-      <updated>1706026937465</updated>
-    </task>
-    <task id="LOCAL−00031" summary="Http server should list people from database (green)">
-      <option name="closed" value="true" />
-      <created>1706027286916</created>
-      <option name="number" value="LOCAL−00031" />
-      <option name="presentableId" value="LOCAL−00031" />
-      <updated>1706027286916</updated>
-    </task>
-    <task id="LOCAL−00032" summary="Add listPeople.html">
-      <option name="closed" value="true" />
-      <created>1706028668713</created>
-      <option name="number" value="LOCAL−00032" />
-      <option name="presentableId" value="LOCAL−00032" />
-      <updated>1706028668713</updated>
-    </task>
-    <option name="localTasksCounter" value="33" />
+    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -419,31 +228,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lecture plan + changes to .gitignore" />
+    <MESSAGE value="first test runs red" />
+    <MESSAGE value="Define Github Actions" />
+    <MESSAGE value="Define Github Actions (FIX to compiler source)" />
+    <MESSAGE value="Fix Maven surefire plugin" />
+    <MESSAGE value="Trying to fix Github Actions workflow" />
     <MESSAGE value="Trying to fix Github Actions workflow #2" />
     <MESSAGE value="Trying to fix Github Actions workflow #3" />
     <MESSAGE value="Added test report" />
-    <MESSAGE value="Some updates to dependencies in pom.xml file" />
-    <MESSAGE value="Plan for lecture + UML diagram" />
-    <MESSAGE value="Fix to wrong pom.xml implementation" />
-    <MESSAGE value="Use maven-shade-plugin to create uber-jar" />
-    <MESSAGE value="Logging" />
-    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (red, does not compile)" />
-    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (compiles)" />
-    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (red still)" />
-    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (compiles somewhat)" />
-    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (green)" />
-    <MESSAGE value="Should use RoleOptionsController for /api/roleOptions (cleanup)" />
-    <MESSAGE value="Should use AddPersonController for /api/newPerson (red)" />
-    <MESSAGE value="Should use AddPersonController for /api/newPerson (red, but compiles)" />
-    <MESSAGE value="Should use AddPersonController for /api/newPerson (still red, but compiles)" />
-    <MESSAGE value="Should use AddPersonController for /api/newPerson (green)" />
-    <MESSAGE value="Should use AddPersonController for /api/newPerson (cleanup)" />
-    <MESSAGE value="HttpServer.main should setup controllers" />
-    <MESSAGE value="Move HttpServer.main to PersonnelServer" />
-    <MESSAGE value="Http server should list people from database (red)" />
-    <MESSAGE value="Http server should list people from database (fixed bystander test)" />
-    <MESSAGE value="Http server should list people from database (green)" />
-    <MESSAGE value="Add listPeople.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add listPeople.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test report" />
   </component>
 </project>
