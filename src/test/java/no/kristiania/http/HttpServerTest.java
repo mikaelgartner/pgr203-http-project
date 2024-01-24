@@ -1,8 +1,6 @@
 package no.kristiania.http;
 
-import no.kristiania.person.Person;
-import no.kristiania.person.RoleDao;
-import no.kristiania.person.TestData;
+import no.kristiania.person.*;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -10,8 +8,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.sql.SQLException;
 import java.time.LocalTime;
-import java.util.List;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -81,19 +79,40 @@ class HttpServerTest {
     @Test
     void shouldReturnRolesFromServer() throws IOException, SQLException {
         RoleDao roleDao = new RoleDao(TestData.testDataSource());
-        roleDao.save("Teacher");
-        roleDao.save("Student");
-        server.setRoleDao(roleDao);
+        server.addController("/api/roleOptions", new RoleOptionsController(roleDao));
 
         HttpClient client = new HttpClient("localhost", server.getPort(), "/api/roleOptions");
         assertEquals(
-                "<option value=1>Teacher</option><option value=2>Student</option>",
+                "<option value=1>Teacher</option><option value=2>Student</option><option value=3>Assistant</option>",
                 client.getMessageBody()
         );
     }
 
+
     @Test
-    void shouldCreateNewPerson() throws IOException {
+    void shouldListPeopleFromDatabase() throws SQLException, IOException {
+        PersonDao personDao = new PersonDao(TestData.testDataSource());
+
+        Person person1 = PersonDaoTest.examplePerson();
+        personDao.save(person1);
+        Person person2 = PersonDaoTest.examplePerson();
+        personDao.save(person2);
+
+        server.addController(ListPeopleController.PATH, new ListPeopleController(personDao));
+
+        HttpClient client = new HttpClient("localhost", server.getPort(), "/api/people");
+        assertThat(client.getMessageBody())
+                .contains(person1.getLastName() + ", " + person1.getFirstName())
+                .contains(person2.getLastName() + ", " + person2.getFirstName())
+                ;
+    }
+
+    @Test
+    void shouldCreateNewPerson() throws IOException, SQLException {
+        PersonDao personDao = new PersonDao(TestData.testDataSource());
+        server.addController("/api/newPerson", new AddPersonController(personDao));
+
+
         HttpPostClient postClient = new HttpPostClient(
                 "localhost",
                 server.getPort(),
@@ -101,7 +120,10 @@ class HttpServerTest {
                 "lastName=Persson&firstName=Test"
         );
         assertEquals(200, postClient.getStatusCode());
-        Person person = server.getPeople().get(0);
-        assertEquals("Persson", person.getLastName());
+        assertThat(personDao.listAll())
+                .anySatisfy(p -> {
+                    assertThat(p.getFirstName()).isEqualTo("Test");
+                    assertThat(p.getLastName()).isEqualTo("Persson");
+                });
     }
 }

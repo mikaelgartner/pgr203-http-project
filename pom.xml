@@ -31,12 +31,6 @@
         </dependency>
 
         <dependency>
-            <groupId>no.kristiania.httpproject</groupId>
-            <artifactId>pgr203-http-project</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
             <version>9.2.0</version>
@@ -74,10 +68,23 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>no.kristiania.http.HttpServer</Main-Class>
+                            <Main-Class>no.kristiania.http.PersonnelServer</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

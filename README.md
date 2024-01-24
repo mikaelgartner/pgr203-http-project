@@ -43,8 +43,13 @@ Lecture 4: HTTP Server
 * [x] Serve HTML from jar-file
 * [x] RoleDaoTest should handle adding roles to database and listing them
 * [x] PersonDaoTest should handle adding persons to database and listing them
-* [ ] /api-requestTarget -> Controllers
-* [ ] Password stored in properties-file
+
+
+## Lecture 10
+* [x] Uberjar - Megajar
+* [x] Logging
+* [x] Password stored in properties-file
+* [x] /api-requestTarget -> Controllers
 
 
 ## Problems left for exam (only to be solved by the students?)

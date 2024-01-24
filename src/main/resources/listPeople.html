@@ -1,23 +1,25 @@
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Personnel</title>
+    <title>List people</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-    <h1>My Personnel Server</h1>
+    <h1>List people</h1>
 
-    <ul>
-        <li><a href="/sayHello.html">Say hello</a></li>
-        <li><a href="/listPeople.html">List people</a></li>
-        <li><a href="/newPerson.html">New Person</a></li>
-    </ul>
+    <div id="people"></div>
 </main>
-
 </body>
+<script>
+    fetch("/api/people").then(function (res) {
+        return res.text();
+    }).then(function(text) {
+        document.getElementById("people").innerHTML = text;
+    })
+</script>
 </html>
